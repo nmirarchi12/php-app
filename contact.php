@@ -24,7 +24,7 @@ if (mysqli_num_rows($result)==1){
 else{
     echo "not found!";
 }
-$txtDifference=$txtExpected-$txtMileage;
+$txtDifference=$txtMileage-$txtExpected;
 $tmpCost=$txtDifference*0.26;
 $txtCost='$' . (string)$tmpCost;
 
