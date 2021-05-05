@@ -29,6 +29,8 @@ mysqli_close($db);
 <p>&nbsp;</p>
 <a href="insert_form.html">Insert a new entry</a>
 <p>&nbsp;</p>
+<a href="removal_form.html">Remove an existing entry</a>
+<p>&nbsp;</p>
 <a href="test-contact.php">Test_Page</a>
 </body>
 </html>
