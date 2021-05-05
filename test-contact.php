@@ -23,7 +23,8 @@ else{
 $txtMileage=7419;
 $txtDifference=$txtExpected-$txtMileage;
 echo "Differnce in mileage: " . $txtDifference;
-$txtCost=$txtDifference*0.26;
+$tmpCost=$txtDifference*0.26;
+$txtCost='$' . (string)$tmpCost;
 echo "Cost : " . $txtCost;
 ?>
 <html>
