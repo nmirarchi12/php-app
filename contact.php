@@ -11,7 +11,7 @@ $txtMileage = $_POST['txtMileage'];
 // get the expecte mileage variable
 //$txtExpected = 
 $query = "SELECT expected_mileage from mileage order by expected_mileage DESC limit 1 ";
-$result=mysqli_query($db, $query);
+$result=mysqli_query($con, $query);
 if (!$result){
     die("BAD!");
 }
@@ -25,9 +25,8 @@ else{
     echo "not found!";
 }
 $txtDifference=$txtExpected-$txtMileage;
-//echo "Testing Differnce in mileage: " . $txtDifference;
-$txtCost=$txtDifference*0.26;
-//echo "Testing Cost : " . $txtCost;
+$tmpCost=$txtDifference*0.26;
+$txtCost='$' . (string)$tmpCost;
 
 
 // database insert SQL code
