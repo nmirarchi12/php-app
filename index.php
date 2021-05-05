@@ -27,10 +27,8 @@ while ($row = mysqli_fetch_array($result)) {
 mysqli_close($db);
 ?>
 <p>&nbsp;</p>
-<a href="insert_form.html">Insert a new entry</a>
+<a href="insert_form.html">Insert a New Entry</a>
 <p>&nbsp;</p>
-<a href="removal_form.html">Remove an existing entry</a>
-<p>&nbsp;</p>
-<a href="test_delete_form.php">Test_Page</a>
+<a href="delete_form.php">Remove an Existing Entry</a>
 </body>
 </html>

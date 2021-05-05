@@ -37,9 +37,10 @@ $rs = mysqli_query($con, $sql);
 
 if($rs)
 {
-	echo "Contact Records Inserted";
+	echo "New Mileage Record Inserted Successfully";
 }
 ?>
 <html>
+        <p>&nbsp;</p>
 	<a href="index.php">Back to Home</a>
 </html>
