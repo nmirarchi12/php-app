@@ -1,6 +1,6 @@
 <?php
 //Step1
- $db = mysqli_connect('10.88.100.126','user1','mypa55','mileage_calculator')
+ $db = mysqli_connect('10.88.100.140','user1','mypa55','mileage_calculator')
  or die('Error connecting to MySQL server.');
 ?>
 
@@ -31,6 +31,6 @@ mysqli_close($db);
 <p>&nbsp;</p>
 <a href="removal_form.html">Remove an existing entry</a>
 <p>&nbsp;</p>
-<a href="test-contact.php">Test_Page</a>
+<a href="test_delete_form.php">Test_Page</a>
 </body>
 </html>

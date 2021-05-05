@@ -2,7 +2,7 @@
 // database connection code
 // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
 
-$con = mysqli_connect('10.88.100.126', 'user1', 'mypa55','mileage_calculator');
+$con = mysqli_connect('10.88.100.140', 'user1', 'mypa55','mileage_calculator');
 
 // get the post records
 $txtMonth = $_POST['txtMonth'];
