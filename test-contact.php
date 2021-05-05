@@ -19,6 +19,12 @@ if (mysqli_num_rows($result)==1){
 else{
     echo "not found!";
 }
+
+$txtMileage=7419;
+$txtDifference=$txtExpected-$txtMileage;
+echo "Differnce in mileage: " . $txtDifference;
+$txtCost=$txtDifference*0.26;
+echo "Cost : " . $txtCost;
 ?>
 <html>
 <a href="index.php">Back to Home</a>
